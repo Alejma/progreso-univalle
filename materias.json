@@ -1,0 +1,98 @@
+[
+    {
+        "nombre": "Matemáticas Basicas",
+        "codigo": "111023C",
+        "creditos": 4,
+        "semestre": 1,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Introducción a la Programación",
+        "codigo": "INF101",
+        "creditos": 3,
+        "semestre": 1,
+        "vista": false,
+        "area": "Programación"
+    },
+    {
+        "nombre": "Física I",
+        "codigo": "FIS101",
+        "creditos": 4,
+        "semestre": 2,
+        "vista": false,
+        "area": "Ciencias Básicas"
+    },
+    {
+        "nombre": "Álgebra Lineal",
+        "codigo": "MAT102",
+        "creditos": 3,
+        "semestre": 2,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Álgebra Lineal",
+        "codigo": "MAT102",
+        "creditos": 3,
+        "semestre": 3,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Álgebra Lineal",
+        "codigo": "MAT102",
+        "creditos": 3,
+        "semestre": 4,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Álgebra Lineal",
+        "codigo": "MAT102",
+        "creditos": 3,
+        "semestre": 5,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Álgebra Lineal",
+        "codigo": "MAT102",
+        "creditos": 3,
+        "semestre": 6,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Álgebra Lineal",
+        "codigo": "MAT102",
+        "creditos": 3,
+        "semestre": 7,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Álgebra Lineal",
+        "codigo": "MAT102",
+        "creditos": 3,
+        "semestre": 8,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Álgebra Lineal",
+        "codigo": "MAT102",
+        "creditos": 3,
+        "semestre": 9,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Álgebra Lineal",
+        "codigo": "MAT102",
+        "creditos": 3,
+        "semestre": 10,
+        "vista": false,
+        "area": "Matemáticas"
+    }
+]

@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1400px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+}
+#creditos-info {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+.pensum-columnas {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-x: auto;
+    width: 100%;
+    padding-left: 8px;
+}
+.columna-semestre {
+    min-width: 120px;
+    max-width: 140px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    padding: 4px 2px 8px 2px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    margin-bottom: 6px;
+    flex: 0 0 95px;
+}
+.columna-semestre h2 {
+    text-align: center;
+    margin: 0 0 4px 0;
+    font-size: 0.85em;
+}
+.tarjeta-materia {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    margin-bottom: 4px;
+    padding: 4px 2px 4px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-left: 4px solid #bbb;
+    position: relative;
+    transition: box-shadow 0.2s;
+    font-size: 0.78em;
+}
+.tarjeta-materia.materia-vista {
+    text-decoration: line-through;
+    color: #888;
+    opacity: 0.7;
+}
+.tarjeta-materia .codigo {
+    font-weight: bold;
+    font-size: 0.85em;
+}
+.tarjeta-materia .nombre {
+    margin: 1px 0 2px 0;
+    font-size: 0.9em;
+}
+.tarjeta-materia .creditos {
+    font-size: 0.8em;
+    color: #555;
+}
+.tarjeta-materia .checkbox-materia {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    transform: scale(0.95);
+}
+/* Colores por área (personalizables) */
+.tarjeta-materia.area-Matemáticas { border-left-color: #2e86c1; }
+.tarjeta-materia.area-Programación { border-left-color: #f39c12; }
+.tarjeta-materia.area-Ciencias\ Básicas { border-left-color: #27ae60; }
+/* Agrega más clases según las áreas que desees */
+
+/* Responsividad */
+@media (max-width: 1200px) {
+    .container { max-width: 98vw; }
+    .columna-semestre { min-width: 120px; max-width: 140px; }
+}
+@media (max-width: 900px) {
+    .columna-semestre { min-width: 48vw; max-width: 49vw; }
+    .pensum-columnas { gap: 6px; }
+}
+@media (max-width: 600px) {
+    .columna-semestre { min-width: 98vw; max-width: 99vw; }
+    .container { padding: 6px; }
+}
+@media (max-width: 700px) {
+    .container {
+        padding: 2vw 1vw;
+        max-width: 100vw;
+    }
+    .pensum-columnas {
+        gap: 3px;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    .columna-semestre {
+        min-width: 60px;
+        max-width: 70px;
+        flex: 0 0 65px;
+        padding: 4px 1px 6px 1px;
+    }
+    .columna-semestre h2 {
+        font-size: 0.7em;
+    }
+    .tarjeta-materia {
+        font-size: 0.65em;
+        padding: 3px 1px 3px 2px;
+        margin-bottom: 3px;
+    }
+    .tarjeta-materia .checkbox-materia {
+        top: 2px;
+        right: 2px;
+        transform: scale(0.85);
+    }
+}
+@media (max-width: 450px) {
+    .columna-semestre {
+        min-width: 96vw;
+        max-width: 98vw;
+        flex: 0 0 98vw;
+        padding: 10px 2px 14px 6px;
+    }
+    .tarjeta-materia {
+        font-size: 1.13em;
+        padding: 14px 6px 14px 10px;
+    }
+} 
