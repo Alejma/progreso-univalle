@@ -1,31 +1,55 @@
 [
     {
-        "nombre": "Matemáticas Basicas",
+        "nombre": "Matemáticas Básicas",
         "codigo": "111023C",
-        "creditos": 4,
+        "creditos": 3,
         "semestre": 1,
         "vista": false,
         "area": "Matemáticas"
     },
     {
-        "nombre": "Introducción a la Programación",
-        "codigo": "INF101",
+        "nombre": "Deporte y Salud",
+        "codigo": "404002C",
+        "creditos": 2,
+        "semestre": 1,
+        "vista": false,
+        "area": "Deporte y Salud"
+    },
+    {
+        "nombre": "Fundamentos de programación Imperativa",
+        "codigo": "750012C",
         "creditos": 3,
         "semestre": 1,
         "vista": false,
         "area": "Programación"
     },
     {
-        "nombre": "Física I",
-        "codigo": "FIS101",
-        "creditos": 4,
-        "semestre": 2,
+        "nombre": "Taller de ingeniería I",
+        "codigo": "701002C",
+        "creditos": 3,
+        "semestre": 1,
         "vista": false,
-        "area": "Ciencias Básicas"
+        "area": "Ingeniería"
     },
     {
-        "nombre": "Álgebra Lineal",
-        "codigo": "MAT102",
+        "nombre": "Inserción a la vida universitaria",
+        "codigo": "701001C",
+        "creditos": 2,
+        "semestre": 1,
+        "vista": false,
+        "area": "Formación Básica"
+    },
+    {
+        "nombre": "Introducción a la ingeniería",
+        "codigo": "701003C",
+        "creditos": 2,
+        "semestre": 1,
+        "vista": false,
+        "area": "Ingeniería"
+    },
+    {
+        "nombre": "Cálculo monovariable",
+        "codigo": "111021C",
         "creditos": 3,
         "semestre": 2,
         "vista": false,
@@ -33,66 +57,346 @@
     },
     {
         "nombre": "Álgebra Lineal",
-        "codigo": "MAT102",
+        "codigo": "111038C",
+        "creditos": 3,
+        "semestre": 2,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Fundamentos de programación orientada a objetos",
+        "codigo": "750015C",
+        "creditos": 3,
+        "semestre": 2,
+        "vista": false,
+        "area": "Programación"
+    },
+    {
+        "nombre": "Matemáticas discretas I",
+        "codigo": "750004C",
+        "creditos": 4,
+        "semestre": 2,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Comprensión y producción de textos académicos generales",
+        "codigo": "204133C",
+        "creditos": 2,
+        "semestre": 2,
+        "vista": false,
+        "area": "Comunicación"
+    },
+    {
+        "nombre": "Electiva complementaria I",
+        "codigo": "X",
+        "creditos": 3,
+        "semestre": 2,
+        "vista": false,
+        "area": "Electiva Complementaria"
+    },
+    {
+        "nombre": "Cálculo multivariable",
+        "codigo": "111022C",
         "creditos": 3,
         "semestre": 3,
         "vista": false,
         "area": "Matemáticas"
     },
     {
-        "nombre": "Álgebra Lineal",
-        "codigo": "MAT102",
+        "nombre": "Física I + Laboratorio",
+        "codigo": "106012C",
+        "creditos": 4,
+        "semestre": 3,
+        "vista": false,
+        "area": "Física"
+    },
+    {
+        "nombre": "Fundamentos de programación orientada a eventos",
+        "codigo": "750014C",
+        "creditos": 3,
+        "semestre": 3,
+        "vista": false,
+        "area": "Programación"
+    },
+    {
+        "nombre": "Matemáticas Discretas II",
+        "codigo": "750005C",
+        "creditos": 4,
+        "semestre": 3,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Electiva complementaria II",
+        "codigo": "XX",
+        "creditos": 2,
+        "semestre": 3,
+        "vista": false,
+        "area": "Electiva Complementaria"
+    },
+    {
+        "nombre": "Probabilidad y Estadística",
+        "codigo": "761001C",
         "creditos": 3,
         "semestre": 4,
         "vista": false,
         "area": "Matemáticas"
     },
     {
-        "nombre": "Álgebra Lineal",
-        "codigo": "MAT102",
+        "nombre": "Ecuaciones diferenciales",
+        "codigo": "111026C",
+        "creditos": 3,
+        "semestre": 4,
+        "vista": false,
+        "area": "Matemáticas"
+    },
+    {
+        "nombre": "Fundamentos de programación funcional y concurrente",
+        "codigo": "750013C",
+        "creditos": 3,
+        "semestre": 4,
+        "vista": false,
+        "area": "Programación"
+    },
+    {
+        "nombre": "Sistemas operativos",
+        "codigo": "750001C",
+        "creditos": 4,
+        "semestre": 4,
+        "vista": false,
+        "area": "Sistemas"
+    },
+    {
+        "nombre": "Bases de datos",
+        "codigo": "750006C",
+        "creditos": 4,
+        "semestre": 4,
+        "vista": false,
+        "area": "Bases de Datos"
+    },
+    {
+        "nombre": "Simulación y computación numérica",
+        "codigo": "750016C",
         "creditos": 3,
         "semestre": 5,
         "vista": false,
-        "area": "Matemáticas"
+        "area": "Computación"
     },
     {
-        "nombre": "Álgebra Lineal",
-        "codigo": "MAT102",
+        "nombre": "Desarrollo de software I",
+        "codigo": "750009C",
+        "creditos": 3,
+        "semestre": 5,
+        "vista": false,
+        "area": "Programación"
+    },
+    {
+        "nombre": "Fundamentos de interpretación y compilación de lenguajes de programación",
+        "codigo": "750017C",
+        "creditos": 3,
+        "semestre": 5,
+        "vista": false,
+        "area": "Compiladores"
+    },
+    {
+        "nombre": "Análisis y diseño de algoritmos I",
+        "codigo": "750008C",
+        "creditos": 3,
+        "semestre": 5,
+        "vista": false,
+        "area": "Algoritmos"
+    },
+    {
+        "nombre": "Fundamentos de redes",
+        "codigo": "750010C",
+        "creditos": 3,
+        "semestre": 5,
+        "vista": false,
+        "area": "Redes"
+    },
+    {
+        "nombre": "Ingeniería económica",
+        "codigo": "760016C",
+        "creditos": 2,
+        "semestre": 5,
+        "vista": false,
+        "area": "Economía"
+    },
+    {
+        "nombre": "Desarrollo de software II",
+        "codigo": "750021C",
         "creditos": 3,
         "semestre": 6,
         "vista": false,
-        "area": "Matemáticas"
+        "area": "Programación"
     },
     {
-        "nombre": "Álgebra Lineal",
-        "codigo": "MAT102",
+        "nombre": "Proyecto integrador I",
+        "codigo": "750018C",
+        "creditos": 3,
+        "semestre": 6,
+        "vista": false,
+        "area": "Proyecto"
+    },
+    {
+        "nombre": "Análisis y diseño de algoritmos II",
+        "codigo": "750020C",
+        "creditos": 3,
+        "semestre": 6,
+        "vista": false,
+        "area": "Algoritmos"
+    },
+    {
+        "nombre": "Infraestructuras paralelas y distribuidas",
+        "codigo": "750023C",
+        "creditos": 3,
+        "semestre": 6,
+        "vista": false,
+        "area": "Sistemas"
+    },
+    {
+        "nombre": "Inteligencia artificial",
+        "codigo": "750022C",
+        "creditos": 3,
+        "semestre": 6,
+        "vista": false,
+        "area": "Inteligencia Artificial"
+    },
+    {
+        "nombre": "Seminario en constitución, legislación y ética de la profesión",
+        "codigo": "730026C",
+        "creditos": 2,
+        "semestre": 7,
+        "vista": false,
+        "area": "Humanidades"
+    },
+    {
+        "nombre": "Desarrollo de software III",
+        "codigo": "750027C",
         "creditos": 3,
         "semestre": 7,
         "vista": false,
-        "area": "Matemáticas"
+        "area": "Programación"
     },
     {
-        "nombre": "Álgebra Lineal",
-        "codigo": "MAT102",
+        "nombre": "Desarrollo de aplicaciones para dispositivos móviles",
+        "codigo": "750026C",
+        "creditos": 3,
+        "semestre": 7,
+        "vista": false,
+        "area": "Programación"
+    },
+    {
+        "nombre": "Ciberseguridad",
+        "codigo": "750024C",
+        "creditos": 3,
+        "semestre": 7,
+        "vista": false,
+        "area": "Seguridad"
+    },
+    {
+        "nombre": "Introducción a la ciencia de los datos",
+        "codigo": "750025C",
+        "creditos": 3,
+        "semestre": 7,
+        "vista": false,
+        "area": "Ciencia de Datos"
+    },
+    {
+        "nombre": "Electiva Profesional I",
+        "codigo": "XXX",
         "creditos": 3,
         "semestre": 8,
         "vista": false,
-        "area": "Matemáticas"
+        "area": "Electiva Profesional"
     },
     {
-        "nombre": "Álgebra Lineal",
-        "codigo": "MAT102",
+        "nombre": "Introducción a la gestión de proyectos de software",
+        "codigo": "750031C",
+        "creditos": 3,
+        "semestre": 8,
+        "vista": false,
+        "area": "Gestión"
+    },
+    {
+        "nombre": "Proyecto integrador II",
+        "codigo": "750037C",
+        "creditos": 3,
+        "semestre": 8,
+        "vista": false,
+        "area": "Proyecto"
+    },
+    {
+        "nombre": "Seminario de trabajo de grado",
+        "codigo": "750036C",
+        "creditos": 2,
+        "semestre": 8,
+        "vista": false,
+        "area": "Trabajo de Grado"
+    },
+    {
+        "nombre": "Impactos ambientales",
+        "codigo": "730078C",
+        "creditos": 2,
+        "semestre": 8,
+        "vista": false,
+        "area": "Humanidades"
+    },
+    {
+        "nombre": "Electiva profesional II",
+        "codigo": "XXXX",
         "creditos": 3,
         "semestre": 9,
         "vista": false,
-        "area": "Matemáticas"
+        "area": "Electiva Profesional"
     },
     {
-        "nombre": "Álgebra Lineal",
-        "codigo": "MAT102",
+        "nombre": "Electiva profesional III",
+        "codigo": "XXXXX",
+        "creditos": 3,
+        "semestre": 9,
+        "vista": false,
+        "area": "Electiva Profesional"
+    },
+    {
+        "nombre": "Innovación y emprendimiento empresarial",
+        "codigo": "750032C",
+        "creditos": 3,
+        "semestre": 9,
+        "vista": false,
+        "area": "Emprendimiento"
+    },
+    {
+        "nombre": "Trabajo de grado I",
+        "codigo": "750038C",
+        "creditos": 2,
+        "semestre": 9,
+        "vista": false,
+        "area": "Trabajo de Grado"
+    },
+    {
+        "nombre": "Diseño de contenido para interfaces de usuario",
+        "codigo": "750040C",
+        "creditos": 3,
+        "semestre": 9,
+        "vista": false,
+        "area": "Diseño"
+    },
+    {
+        "nombre": "Electiva Profesional IV",
+        "codigo": "XXXXXX",
         "creditos": 3,
         "semestre": 10,
         "vista": false,
-        "area": "Matemáticas"
+        "area": "Electiva Profesional"
+    },
+    {
+        "nombre": "Trabajo de Grado II",
+        "codigo": "750039C",
+        "creditos": 6,
+        "semestre": 10,
+        "vista": false,
+        "area": "Trabajo de Grado"
     }
 ]

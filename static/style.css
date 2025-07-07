@@ -86,7 +86,13 @@ h1 {
 .tarjeta-materia.area-Matemáticas { border-left-color: #2e86c1; }
 .tarjeta-materia.area-Programación { border-left-color: #f39c12; }
 .tarjeta-materia.area-Ciencias\ Básicas { border-left-color: #27ae60; }
-/* Agrega más clases según las áreas que desees */
+.tarjeta-materia.area-Deporte\ y\ salud { border-left-color: #8fff7c; }
+.tarjeta-materia.area-Compiladores { border-left-color: #c0392b; }
+.tarjeta-materia.area-Análisis\ y\ diseño\ de\ algoritmos { border-left-color: #c0392b; }
+.tarjeta-materia.area-Electiva\ Complementaria { border-left-color: #c0392b; }
+.tarjeta-materia.area-Formación\ Básica { border-left-color: #7ae0ff; }
+.tarjeta-materia.area-Física { border-left-color: #c0392b; }
+.tarjeta-materia.area-Ingeniería { border-left-color: #c0392b; }
 
 /* Responsividad */
 @media (max-width: 1200px) {
@@ -142,4 +148,18 @@ h1 {
         font-size: 1.13em;
         padding: 14px 6px 14px 10px;
     }
+}
+
+.cabecera-materia {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 2px;
+}
+.cabecera-materia .checkbox-materia {
+    position: static;
+    margin-right: 4px;
+    top: unset;
+    right: unset;
+    transform: scale(1);
 } 

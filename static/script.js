@@ -30,10 +30,12 @@ function mostrarMateriasColumnas(materias) {
             let areaClass = m.area ? `area-${m.area.replace(/ /g, "\\ ")}` : '';
             tarjeta.className = `tarjeta-materia ${m.vista ? 'materia-vista' : ''} ${areaClass}`;
             tarjeta.innerHTML = `
-                <span class="codigo">${m.codigo}</span>
+                <div class="cabecera-materia">
+                    <input type="checkbox" class="checkbox-materia" ${m.vista ? 'checked' : ''}>
+                    <span class="codigo">${m.codigo}</span>
+                </div>
                 <span class="nombre">${m.nombre}</span>
                 <span class="creditos">Créditos: ${m.creditos}</span>
-                <input type="checkbox" class="checkbox-materia" ${m.vista ? 'checked' : ''}>
             `;
             // Manejar el checkbox
             const checkbox = tarjeta.querySelector('input[type="checkbox"]');
